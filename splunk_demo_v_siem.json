@@ -148,7 +148,7 @@
             "modified": "2022-05-28T17:29:33.348Z",
             "first_observed": "2022-05-28T12:26:28.691481Z",
             "last_observed": "2022-05-28T12:26:28.691481Z",
-            "number_observed": 3,
+            "number_observed": 8,
             "objects": {
                 "0": {
                     "type": "mac-addr",
@@ -216,7 +216,7 @@
             "modified": "2022-05-28T17:29:33.351Z",
             "first_observed": "2022-05-28T12:31:20.681083Z",
             "last_observed": "2022-05-28T12:31:20.681083Z",
-            "number_observed": 3,
+            "number_observed": 8,
             "objects": {
                 "0": {
                     "type": "mac-addr",
@@ -284,7 +284,7 @@
             "modified": "2022-05-28T17:29:33.353Z",
             "first_observed": "2022-05-28T12:27:21.691573Z",
             "last_observed": "2022-05-28T12:27:21.691573Z",
-            "number_observed": 3,
+            "number_observed": 4,
             "objects": {
                 "0": {
                     "type": "mac-addr",
@@ -319,7 +319,7 @@
             "modified": "2022-05-28T17:29:33.355Z",
             "first_observed": "2022-05-28T12:31:57.681145Z",
             "last_observed": "2022-05-28T12:31:57.681145Z",
-            "number_observed": 3,
+            "number_observed": 4,
             "objects": {
                 "0": {
                     "type": "mac-addr",
