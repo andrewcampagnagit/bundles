@@ -1,23 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--c2bbf362-1e02-4b96-8f67-5f1488b5bdde",
+    "id": "bundle--c9698909-af6b-4879-bdb4-93f598e70b0f",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--ad870328-2e6d-4f72-8dff-cffe51db2c3c",
-            "created": "2022-05-29T23:10:44.927Z",
-            "modified": "2022-05-29T23:10:44.927Z",
+            "id": "identity--e7c12ccc-2d96-4900-afde-5ca2d52826cd",
+            "created": "2022-05-29T23:19:03.338Z",
+            "modified": "2022-05-29T23:19:03.338Z",
             "name": "splunk",
             "identity_class": "system"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--0e82552b-c897-4775-b7b8-b49e3df814b9",
-            "created": "2022-05-29T23:10:44.929Z",
-            "modified": "2022-05-29T23:10:44.929Z",
-            "first_observed": "2022-05-29T18:12:09.914323Z",
-            "last_observed": "2022-05-29T18:12:09.914323Z",
+            "id": "observed-data--56ff1696-6615-4c82-98da-18dbb6b20e0d",
+            "created": "2022-05-29T23:19:03.340Z",
+            "modified": "2022-05-29T23:19:03.340Z",
+            "first_observed": "2022-05-29T18:20:31.32409Z",
+            "last_observed": "2022-05-29T18:20:31.32409Z",
             "number_observed": 8,
             "objects": {
                 "0": {
@@ -48,7 +48,7 @@
                     "type": "network-traffic",
                     "src_ref": "0",
                     "dst_ref": "5",
-                    "src_port": 58880,
+                    "src_port": 59559,
                     "dst_port": 443,
                     "protocols": [
                         "https"
@@ -62,7 +62,7 @@
                     ],
                     "ip_refs": [
                         "0",
-                        "3"
+                        "5"
                     ],
                     "network_ref": "6"
                 },
@@ -71,7 +71,7 @@
                     "hostname": "cdc_ho_srv4.vzw.local",
                     "ip_refs": [
                         "0",
-                        "3"
+                        "5"
                     ]
                 }
             }
