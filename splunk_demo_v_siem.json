@@ -1,24 +1,24 @@
 {
     "type": "bundle",
-    "id": "bundle--3dc892ed-cacd-465e-bebf-117dd9597ad2",
+    "id": "bundle--46d456cd-60fb-47be-806d-3d6376c844e9",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--a654cf12-e727-4d58-8967-8a39b73534fe",
-            "created": "2022-05-29T23:20:54.415Z",
-            "modified": "2022-05-29T23:20:54.415Z",
+            "id": "identity--1372a840-11fa-49c3-9050-26ba78f8271f",
+            "created": "2022-05-29T23:23:45.416Z",
+            "modified": "2022-05-29T23:23:45.416Z",
             "name": "splunk",
             "identity_class": "system"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--d2eb245e-48f1-4684-928d-2311de94e50b",
-            "created": "2022-05-29T23:20:54.418Z",
-            "modified": "2022-05-29T23:20:54.418Z",
-            "first_observed": "2022-05-29T18:21:37.381983Z",
-            "last_observed": "2022-05-29T18:21:37.381983Z",
-            "number_observed": 8,
+            "id": "observed-data--cb97d591-957c-43c1-9f85-4ff08358ade0",
+            "created": "2022-05-29T23:23:45.418Z",
+            "modified": "2022-05-29T23:23:45.418Z",
+            "first_observed": "2022-05-29T18:24:42.401409Z",
+            "last_observed": "2022-05-29T18:24:42.401409Z",
+            "number_observed": 6,
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -33,45 +33,37 @@
                     "value": "W3SVC241260617.telco.net"
                 },
                 "3": {
-                    "type": "user-account",
-                    "user_id": "iam_test_user_3"
-                },
-                "4": {
-                    "type": "x-deviceid",
-                    "deviceid": "856089933444546560"
-                },
-                "5": {
                     "type": "ipv4-addr",
                     "value": "172.17.6.87"
                 },
-                "6": {
+                "4": {
                     "type": "network-traffic",
                     "src_ref": "0",
-                    "dst_ref": "5",
-                    "src_port": 57416,
+                    "dst_ref": "3",
+                    "src_port": 62903,
                     "dst_port": 443,
                     "protocols": [
                         "https"
                     ]
                 },
-                "7": {
+                "5": {
                     "type": "x-oca-event",
                     "action": "ACCEPT",
                     "host_ref": [
-                        "8"
+                        "6"
                     ],
                     "ip_refs": [
                         "0",
-                        "5"
+                        "3"
                     ],
-                    "network_ref": "6"
+                    "network_ref": "4"
                 },
-                "8": {
+                "6": {
                     "type": "x-oca-asset",
-                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "hostname": "cdc_ho_srv4.sg2.local",
                     "ip_refs": [
                         "0",
-                        "5"
+                        "3"
                     ]
                 }
             }
