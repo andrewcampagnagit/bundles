@@ -1,28 +1,43 @@
 {
     "type": "bundle",
-    "id": "bundle--c162949e-dc38-49f6-bb4e-25704500529d",
+    "id": "bundle--d2232f3f-2a40-44f0-bdf4-208c7a902c50",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--a031b866-5b83-4cdd-a9a0-d64b08c388a7",
-            "created": "2022-05-29T23:36:25.441Z",
-            "modified": "2022-05-29T23:36:25.441Z",
-            "name": "splunk",
-            "identity_class": "system"
+            "id": "identity--e6141887-0cae-4226-89bf-b242e44eec6a",
+            "created": "2022-05-29T23:36:25.459Z",
+            "modified": "2022-05-29T23:36:25.459Z",
+            "name": "AWS",
+            "identity_class": "events"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--839babc8-2090-43b6-b57c-304788e17157",
-            "created": "2022-05-29T23:36:25.444Z",
-            "modified": "2022-05-29T23:36:25.444Z",
-            "first_observed": "2022-05-29T18:37:31.43578Z",
-            "last_observed": "2022-05-29T18:37:31.43578Z",
-            "number_observed": 0,
+            "id": "observed-data--4f36595c-7e59-4ad9-8da7-b10475fbe09b",
+            "created": "2022-05-29T23:36:25.460Z",
+            "modified": "2022-05-29T23:36:25.460Z",
+            "first_observed": "2022-05-29T18:37:12.43578Z",
+            "last_observed": "2022-05-29T18:37:12.43578Z",
+            "number_observed": 3,
             "objects": {
                 "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
                     "type": "ipv4-addr",
-                    "value": "10.1.136.27"
+                    "value": "10.1.136.27",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "url",
+                    "value": "https://W3SVC241260617.telco.net/"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
                 }
             }
         }
