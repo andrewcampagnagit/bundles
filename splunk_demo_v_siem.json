@@ -18,45 +18,11 @@
             "modified": "2022-05-29T23:36:25.444Z",
             "first_observed": "2022-05-29T18:37:31.43578Z",
             "last_observed": "2022-05-29T18:37:31.43578Z",
-            "number_observed": 5,
+            "number_observed": 1,
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
                     "value": "10.1.136.27"
-                },
-                "1": {
-                    "type": "url",
-                    "value": "https://W3SVC241260617.telco.net/"
-                },
-                "2": {
-                    "type": "domain-name",
-                    "value": "W3SVC241260617.telco.net"
-                },
-                "3": {
-                    "type": "ipv4-addr",
-                    "value": "172.17.6.87"
-                },
-                "4": {
-                    "type": "network-traffic",
-                    "src_ref": "0",
-                    "dst_ref": "3",
-                    "src_port": 50811,
-                    "dst_port": 443,
-                    "protocols": [
-                        "https"
-                    ]
-                },
-                "5": {
-                    "type": "x-oca-event",
-                    "action": "ACCEPT",
-                    "host_ref": [
-                        "6"
-                    ],
-                    "ip_refs": [
-                        "0",
-                        "3"
-                    ],
-                    "network_ref": "4"
                 }
             }
         }
