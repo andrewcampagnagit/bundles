@@ -1,23 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--46d456cd-60fb-47be-806d-3d6376c844e9",
+    "id": "bundle--c162949e-dc38-49f6-bb4e-25704500529d",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--1372a840-11fa-49c3-9050-26ba78f8271f",
-            "created": "2022-05-29T23:23:45.416Z",
-            "modified": "2022-05-29T23:23:45.416Z",
+            "id": "identity--a031b866-5b83-4cdd-a9a0-d64b08c388a7",
+            "created": "2022-05-29T23:36:25.441Z",
+            "modified": "2022-05-29T23:36:25.441Z",
             "name": "splunk",
             "identity_class": "system"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--cb97d591-957c-43c1-9f85-4ff08358ade0",
-            "created": "2022-05-29T23:23:45.418Z",
-            "modified": "2022-05-29T23:23:45.418Z",
-            "first_observed": "2022-05-29T18:24:42.401409Z",
-            "last_observed": "2022-05-29T18:24:42.401409Z",
+            "id": "observed-data--839babc8-2090-43b6-b57c-304788e17157",
+            "created": "2022-05-29T23:36:25.444Z",
+            "modified": "2022-05-29T23:36:25.444Z",
+            "first_observed": "2022-05-29T18:37:31.43578Z",
+            "last_observed": "2022-05-29T18:37:31.43578Z",
             "number_observed": 6,
             "objects": {
                 "0": {
@@ -40,7 +40,7 @@
                     "type": "network-traffic",
                     "src_ref": "0",
                     "dst_ref": "3",
-                    "src_port": 62903,
+                    "src_port": 50811,
                     "dst_port": 443,
                     "protocols": [
                         "https"
@@ -60,11 +60,10 @@
                 },
                 "6": {
                     "type": "x-oca-asset",
-                    "hostname": "cdc_ho_srv4.sg2.local",
-                    "ip_refs": [
-                        "0",
-                        "3"
-                    ]
+                    "ip_ref": [
+                        "0"
+                    ],
+                    "hostname": "cdc_ho_srv4.sg2.local"
                 }
             }
         }
