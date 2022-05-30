@@ -55,10 +55,9 @@
                     ],
                     "network_ref": "4"
                 },
-                ,
                 "6": {
                     "type": "x-oca-asset",
-                    "ip_ref": [
+                    "ip_refs": [
                         "0"
                     ],
                     "hostname": "cdc_ho_srv4.sg2.local"
