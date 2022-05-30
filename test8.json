@@ -1,0 +1,127 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5fe97b7-c745-4dc5-b7b8-1871dd4b7bf7",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--b2333a02-b429-44e8-a9c1-bc72472769f5",
+            "created": "2022-05-30T03:52:44.954Z",
+            "modified": "2022-05-30T03:52:44.954Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--2426c169-82f8-407d-ae53-1adac7302edc",
+            "created": "2022-05-30T03:52:44.957Z",
+            "modified": "2022-05-30T03:52:44.957Z",
+            "first_observed": "2022-05-29T22:54:11.932231Z",
+            "last_observed": "2022-05-29T22:54:11.932231Z",
+            "number_observed": 7,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "https://W3SVC241260617.telco.net/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "W3SVC241260617.telco.net"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 51294,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "6": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "cdc_ho_srv4.sg2.local"
+                },
+                "7": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--55a5992d-66a3-4526-abc3-21c729c0bafc",
+            "created": "2022-05-30T03:52:44.959Z",
+            "modified": "2022-05-30T03:52:44.959Z",
+            "first_observed": "2022-05-29T22:54:56.932483Z",
+            "last_observed": "2022-05-29T22:54:56.932483Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "process",
+                    "pid": 226,
+                    "name": "eCDSGUI33.jar"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "3": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--7ddab05a-9d51-4553-a914-e29745aa53db",
+            "created": "2022-05-30T03:52:44.960Z",
+            "modified": "2022-05-30T03:52:44.960Z",
+            "first_observed": "2022-05-29T22:55:46.932337Z",
+            "last_observed": "2022-05-29T22:55:46.932337Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "file",
+                    "name": "/tmp/eCDSGUI33.jar"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "3": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                }
+            }
+        }
+    ]
+}
