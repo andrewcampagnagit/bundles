@@ -18,7 +18,7 @@
             "modified": "2022-05-29T23:36:25.444Z",
             "first_observed": "2022-05-29T18:37:31.43578Z",
             "last_observed": "2022-05-29T18:37:31.43578Z",
-            "number_observed": 3,
+            "number_observed": 4,
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -35,6 +35,16 @@
                 "3": {
                     "type": "ipv4-addr",
                     "value": "172.17.6.87"
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "3",
+                    "src_port": 50811,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
                 }
             }
         }
