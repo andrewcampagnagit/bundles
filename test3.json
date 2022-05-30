@@ -55,7 +55,6 @@
                     ],
                     "network_ref": "4"
                 },
-                ,
                 "6": {
                     "type": "x-oca-asset",
                     "ip_refs": [
