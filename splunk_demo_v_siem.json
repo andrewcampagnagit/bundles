@@ -18,7 +18,7 @@
             "modified": "2022-05-29T23:36:25.444Z",
             "first_observed": "2022-05-29T18:37:31.43578Z",
             "last_observed": "2022-05-29T18:37:31.43578Z",
-            "number_observed": 5,
+            "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "ipv4-addr",
@@ -35,35 +35,6 @@
                 "3": {
                     "type": "ipv4-addr",
                     "value": "172.17.6.87"
-                },
-                "4": {
-                    "type": "network-traffic",
-                    "src_ref": "0",
-                    "dst_ref": "3",
-                    "src_port": 50811,
-                    "dst_port": 443,
-                    "protocols": [
-                        "https"
-                    ]
-                },
-                "5": {
-                    "type": "x-oca-event",
-                    "action": "ACCEPT",
-                    "host_ref": [
-                        "6"
-                    ],
-                    "ip_refs": [
-                        "0",
-                        "3"
-                    ],
-                    "network_ref": "4"
-                },
-                "6": {
-                    "type": "x-oca-asset",
-                    "ip_ref": [
-                        "0"
-                    ],
-                    "hostname": "cdc_ho_srv4.sg2.local"
                 }
             }
         }
