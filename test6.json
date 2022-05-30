@@ -1,23 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--515b9b80-5f23-4528-86cc-0807fd0752fe",
+    "id": "bundle--4de42ec0-0a44-4c40-9409-5040319fd426",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--c59ad88a-76da-4a33-9a8e-438c8a963688",
-            "created": "2022-05-30T03:11:16.967Z",
-            "modified": "2022-05-30T03:11:16.967Z",
+            "id": "identity--8583ddb1-9d10-46aa-bb2f-083d6b16b766",
+            "created": "2022-05-30T03:23:06.780Z",
+            "modified": "2022-05-30T03:23:06.780Z",
             "name": "splunk",
             "identity_class": "system"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--ffb2d1f6-379e-43d4-b252-8de28e610022",
-            "created": "2022-05-30T03:11:16.969Z",
-            "modified": "2022-05-30T03:11:16.969Z",
-            "first_observed": "2022-05-29T22:12:20.963011Z",
-            "last_observed": "2022-05-29T22:12:20.963011Z",
+            "id": "observed-data--6ef1fa76-29e6-42d1-bf2c-b59665299271",
+            "created": "2022-05-30T03:23:06.783Z",
+            "modified": "2022-05-30T03:23:06.783Z",
+            "first_observed": "2022-05-29T22:23:53.774387Z",
+            "last_observed": "2022-05-29T22:23:53.774387Z",
             "number_observed": 7,
             "objects": {
                 "0": {
@@ -40,7 +40,7 @@
                     "type": "network-traffic",
                     "src_ref": "0",
                     "dst_ref": "3",
-                    "src_port": 50202,
+                    "src_port": 52244,
                     "dst_port": 443,
                     "protocols": [
                         "https"
@@ -49,6 +49,9 @@
                 "5": {
                     "type": "x-oca-event",
                     "action": "ACCEPT",
+                    "host_ref": [
+                        "6"
+                    ],
                     "ip_refs": [
                         "0",
                         "3"
