@@ -1,0 +1,64 @@
+{
+    "type": "bundle",
+    "id": "bundle--663d3661-bc79-4652-b195-1ff9e0784705",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--d575a83e-7a69-42c5-852e-7eaa558d7e10",
+            "created": "2023-04-03T19:58:30.171Z",
+            "modified": "2023-04-03T19:58:30.171Z",
+            "name": "qradar",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--fc7fc5c0-39d9-4877-b830-68780e91ac1c",
+            "created": "2023-04-03T19:58:30.173Z",
+            "modified": "2023-04-03T19:58:30.173Z",
+            "first_observed": "2023-04-03T19:59:11.171392Z",
+            "last_observed": "2023-04-03T19:59:11.171392Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "102.68.1.53"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 54575,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation.sgl.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation"
+                }
+            }
+        }
+    ]
+}
