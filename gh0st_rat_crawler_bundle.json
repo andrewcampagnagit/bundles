@@ -34,7 +34,7 @@
                 },
                 "3": {
                     "type": "ipv4-addr",
-                    "value": "167.94.138.114"
+                    "value": "10.20.108.57"
                 },
                 "4": {
                     "type": "network-traffic",
@@ -132,7 +132,7 @@
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "167.248.133.43"
+                    "value": "10.20.108.57"
                 },
                 "2": {
                     "type": "network-traffic",
@@ -230,7 +230,7 @@
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "167.248.133.43"
+                    "value": "10.20.108.57"
                 },
                 "2": {
                     "type": "network-traffic",
