@@ -1,23 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--98d2f406-3f2c-4e20-af9d-a97a51150816",
+    "id": "bundle--9ace367f-5cd0-4306-a25b-b437dde2f913",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--683b3b15-d96b-421e-8f4d-d9e5d008a249",
-            "created": "2024-04-15T15:22:22.374Z",
-            "modified": "2024-04-15T15:22:22.374Z",
+            "id": "identity--d4ea7deb-dfe8-4e4c-944c-eabcee1c12a4",
+            "created": "2024-04-15T20:09:46.745Z",
+            "modified": "2024-04-15T20:09:46.745Z",
             "name": "qradar",
             "identity_class": "system"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--e305c2e1-22d7-400f-bfa5-a16330443295",
-            "created": "2024-04-15T15:22:22.377Z",
-            "modified": "2024-04-15T15:22:22.377Z",
-            "first_observed": "2024-04-15T10:23:45.39317Z",
-            "last_observed": "2024-04-15T10:23:45.39317Z",
+            "id": "observed-data--ee8b91ea-2e44-4795-95a2-8703ce991191",
+            "created": "2024-04-15T20:09:46.747Z",
+            "modified": "2024-04-15T20:09:46.747Z",
+            "first_observed": "2024-04-15T15:11:14.727074Z",
+            "last_observed": "2024-04-15T15:11:14.727074Z",
             "number_observed": 4,
             "objects": {
                 "0": {
@@ -30,7 +30,7 @@
                 },
                 "2": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:00:69:57"
+                    "value": "CC:46:D6:0f:5f:20"
                 },
                 "3": {
                     "type": "network-traffic",
@@ -44,17 +44,54 @@
                 },
                 "4": {
                     "type": "x-deviceid",
-                    "deviceid": "ws1022"
+                    "deviceid": "win1"
                 }
             }
         },
         {
             "type": "observed-data",
-            "id": "observed-data--be1a0cea-1924-4ab7-b4e7-111fd514d1dc",
-            "created": "2024-04-15T15:22:22.379Z",
-            "modified": "2024-04-15T15:22:22.379Z",
-            "first_observed": "2024-04-15T10:24:33.393097Z",
-            "last_observed": "2024-04-15T10:24:33.393097Z",
+            "id": "observed-data--ee7dd6bc-a1ae-4367-8203-6a732e112f22",
+            "created": "2024-04-15T20:09:46.749Z",
+            "modified": "2024-04-15T20:09:46.749Z",
+            "first_observed": "2024-04-15T15:12:19.72713Z",
+            "last_observed": "2024-04-15T15:12:19.72713Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "93.190.10.45"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:0f:5f:20"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "2",
+                    "src_port": 8080,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "win1"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--c51d6b12-600e-4b13-b7c8-d69a77d955be",
+            "created": "2024-04-15T20:09:46.751Z",
+            "modified": "2024-04-15T20:09:46.751Z",
+            "first_observed": "2024-04-15T15:13:04.727011Z",
+            "last_observed": "2024-04-15T15:13:04.727011Z",
             "number_observed": 4,
             "objects": {
                 "0": {
@@ -68,15 +105,15 @@
                 },
                 "2": {
                     "type": "user-account",
-                    "user_id": "john"
+                    "user_id": "WIN-ACL7R3Q3UMR\\Administrator"
                 },
                 "3": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:00:69:57"
+                    "value": "CC:46:D6:0f:5f:20"
                 },
                 "4": {
                     "type": "x-deviceid",
-                    "deviceid": "ws1022"
+                    "deviceid": "win1"
                 }
             }
         }
