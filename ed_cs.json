@@ -1,0 +1,257 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a3dce55-400f-4f17-b630-37d1213e43be",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--1592551b-cc92-4cb2-a586-cbbf9c73c278",
+            "created": "2024-04-18T15:01:56.989Z",
+            "modified": "2024-04-18T15:01:56.989Z",
+            "name": "CrowdStrike",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--f9b5e7c9-8faa-4ea5-9212-c0cfd6ca00c7",
+            "created": "2024-04-18T15:01:56.990Z",
+            "modified": "2024-04-18T15:01:56.990Z",
+            "first_observed": "2024-04-18T10:02:46.983164Z",
+            "last_observed": "2024-04-18T10:02:46.983164Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "http://malw.wxi.dwnld.io/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "malw.wxi.dwnld.io"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:9f:14:81"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation1"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--b5da6fb3-830f-4c54-8016-9c2705c8b8c8",
+            "created": "2024-04-18T15:01:56.992Z",
+            "modified": "2024-04-18T15:01:56.992Z",
+            "first_observed": "2024-04-18T10:04:10.983477Z",
+            "last_observed": "2024-04-18T10:04:10.983477Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.1"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "55.208.100.6"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:af:79:bf"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "2",
+                    "src_port": 21,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation2"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--e28bac0d-aa90-48ab-a3ec-f65d449c7bc4",
+            "created": "2024-04-18T15:01:56.993Z",
+            "modified": "2024-04-18T15:01:56.993Z",
+            "first_observed": "2024-04-18T10:05:32.983527Z",
+            "last_observed": "2024-04-18T10:05:32.983527Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.1"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "55.208.100.6"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:af:79:bf"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "2",
+                    "src_port": 21,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation2"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--3fc845dc-7b52-4473-9c01-b84f6b288403",
+            "created": "2024-04-18T15:01:56.995Z",
+            "modified": "2024-04-18T15:01:56.995Z",
+            "first_observed": "2024-04-18T10:06:39.983427Z",
+            "last_observed": "2024-04-18T10:06:39.983427Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.1"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:9f:14:81"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "2",
+                    "src_port": 22,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation1"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--cfbef92a-ac2f-404c-90b5-43e00ddd2794",
+            "created": "2024-04-18T15:01:56.997Z",
+            "modified": "2024-04-18T15:01:56.997Z",
+            "first_observed": "2024-04-18T10:07:23.983362Z",
+            "last_observed": "2024-04-18T10:07:23.983362Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "process",
+                    "pid": 1024,
+                    "name": "4rx0.exe"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:9f:14:81"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation1"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--f40904cc-541d-4a79-b477-9a51b886ec2e",
+            "created": "2024-04-18T15:01:56.999Z",
+            "modified": "2024-04-18T15:01:56.999Z",
+            "first_observed": "2024-04-18T10:08:41.983243Z",
+            "last_observed": "2024-04-18T10:08:41.983243Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "7e37ab34ecdcc3e77e24522ddfd4852d"
+                    },
+                    "name": "4rx0.exe"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:9f:14:81"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation1"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--6b8eeb67-b63a-4ae0-9f35-c4198ebc5ebb",
+            "created": "2024-04-18T15:01:57.001Z",
+            "modified": "2024-04-18T15:01:57.001Z",
+            "first_observed": "2024-04-18T10:09:23.983307Z",
+            "last_observed": "2024-04-18T10:09:23.983307Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0"
+                },
+                "1": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "e315436c42e681962a8e174ef7fad480"
+                    },
+                    "name": "5rx0.exe"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:9f:14:81"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "workstation1"
+                }
+            }
+        }
+    ]
+}
