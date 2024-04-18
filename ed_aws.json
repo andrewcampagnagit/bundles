@@ -1,0 +1,256 @@
+{
+    "type": "bundle",
+    "id": "bundle--001ec676-33e1-47e9-a63d-c86cb37ffd35",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--47ce5861-c1a4-455e-a821-94590f38fde5",
+            "created": "2024-04-18T15:03:43.157Z",
+            "modified": "2024-04-18T15:03:43.157Z",
+            "name": "AWS",
+            "identity_class": "events"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--875855e4-9aaa-4b4b-bc5e-c74bf38e37c4",
+            "created": "2024-04-18T15:03:43.158Z",
+            "modified": "2024-04-18T15:03:43.158Z",
+            "first_observed": "2024-04-18T10:04:37.151857Z",
+            "last_observed": "2024-04-18T10:04:37.151857Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:ae:60:68"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "url",
+                    "value": "http://malw.wxi.dwnld.io/"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--3f864f2c-2dce-4bac-86f7-d03612822524",
+            "created": "2024-04-18T15:03:43.160Z",
+            "modified": "2024-04-18T15:03:43.160Z",
+            "first_observed": "2024-04-18T10:05:21.152172Z",
+            "last_observed": "2024-04-18T10:05:21.152172Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:b0:a2:2b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.1",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "55.208.100.6"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "janesmith@baneandox.com"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--8ed949f4-5a55-4bd5-b700-a78e6e0ad960",
+            "created": "2024-04-18T15:03:43.162Z",
+            "modified": "2024-04-18T15:03:43.162Z",
+            "first_observed": "2024-04-18T10:06:02.152223Z",
+            "last_observed": "2024-04-18T10:06:02.152223Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:b0:a2:2b"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.1",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "55.208.100.6"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "janesmith@baneandox.com"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--ccaeb5b2-8caf-4d1c-8a08-b468c8a1e5d1",
+            "created": "2024-04-18T15:03:43.164Z",
+            "modified": "2024-04-18T15:03:43.164Z",
+            "first_observed": "2024-04-18T10:07:03.152122Z",
+            "last_observed": "2024-04-18T10:07:03.152122Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:ae:60:68"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.1"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--b8d9d0f3-a093-4c48-a655-7c79a567587b",
+            "created": "2024-04-18T15:03:43.166Z",
+            "modified": "2024-04-18T15:03:43.166Z",
+            "first_observed": "2024-04-18T10:08:08.152058Z",
+            "last_observed": "2024-04-18T10:08:08.152058Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:ae:60:68"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 1024,
+                    "name": "4rx0.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--18fa3903-2cd6-40cf-acbc-bd3df0df80e8",
+            "created": "2024-04-18T15:03:43.168Z",
+            "modified": "2024-04-18T15:03:43.168Z",
+            "first_observed": "2024-04-18T10:09:14.151939Z",
+            "last_observed": "2024-04-18T10:09:14.151939Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:ae:60:68"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "7e37ab34ecdcc3e77e24522ddfd4852d"
+                    },
+                    "name": "4rx0.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--2da83005-b2a9-4c2f-b289-33b953d8ce99",
+            "created": "2024-04-18T15:03:43.170Z",
+            "modified": "2024-04-18T15:03:43.170Z",
+            "first_observed": "2024-04-18T10:10:10.152003Z",
+            "last_observed": "2024-04-18T10:10:10.152003Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:ae:60:68"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.0",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "e315436c42e681962a8e174ef7fad480"
+                    },
+                    "name": "5rx0.exe"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "clarkeflood@baneandox.com"
+                }
+            }
+        }
+    ]
+}
