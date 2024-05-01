@@ -1,1 +1,202 @@
-{"type": "bundle", "id": "bundle--e3e25922-ef8c-4d5a-b0da-48cc4c013b41", "spec_version": "2.0", "objects": [{"type": "identity", "id": "identity--79198cdf-91cb-4f23-b94f-2152e6b99389", "created": "2024-05-01T17:29:00.000000Z", "modified": "2024-05-01T17:29:00.000000Z", "name": "splunk", "identity_class": "system", "first_observed": "2024-05-01T17:29:00.000000Z", "last_observed": "2024-05-01T17:29:00.000000Z"}, {"type": "observed-data", "id": "observed-data--4cdeb503-19b2-4c64-be80-65d15923d1d4", "created": "2024-05-01T17:30:00.000000Z", "modified": "2024-05-01T17:30:00.000000Z", "first_observed": "2024-05-01T17:30:00.000000Z", "last_observed": "2024-05-01T17:30:00.000000Z", "number_observed": 6, "objects": {"0": {"type": "mac-addr", "value": "192.168.1.102"}, "1": {"type": "url", "value": "http://weebex.com/webex_installer.zip"}, "2": {"type": "domain-name", "value": "weebex.com"}, "3": {"type": "mac-addr", "value": "CC:46:D6:52:43:ae"}, "4": {"type": "ipv4-addr", "value": "190.14.228.17"}, "5": {"type": "network-traffic", "src_ref": "0", "dst_ref": "4", "src_port": 61553, "dst_port": 80, "protocols": ["http"]}, "6": {"type": "x-deviceid", "deviceid": "windowsserver2019"}}}, {"type": "observed-data", "id": "observed-data--2d85c732-c47e-4ba5-86f5-825d732ee9cf", "created": "2024-05-01T17:31:00.000000Z", "modified": "2024-05-01T17:31:00.000000Z", "first_observed": "2024-05-01T17:31:00.000000Z", "last_observed": "2024-05-01T17:31:00.000000Z", "number_observed": 4, "objects": {"0": {"type": "ipv4-addr", "value": "192.168.1.102"}, "1": {"type": "ipv4-addr", "value": "5.196.58.96"}, "2": {"type": "mac-addr", "value": "CC:46:D6:52:43:ae"}, "3": {"type": "network-traffic", "src_ref": "0", "dst_ref": "2", "src_port": 58773, "dst_port": 6667, "protocols": ["TCP"]}, "4": {"type": "x-deviceid", "deviceid": "windowsserver2019"}}}, {"type": "observed-data", "id": "observed-data--6ded49a9-8cd6-49f1-ad0e-d68bc1f246b7", "created": "2024-05-01T17:32:00.000000Z", "modified": "2024-05-01T17:32:00.000000Z", "first_observed": "2024-05-01T17:32:00.000000Z", "last_observed": "2024-05-01T17:32:00.000000Z", "number_observed": 4, "objects": {"0": {"type": "ipv4-addr", "value": "192.168.1.102"}, "1": {"type": "ipv4-addr", "value": "46.149.184.5"}, "2": {"type": "mac-addr", "value": "CC:46:D6:52:43:ae"}, "3": {"type": "network-traffic", "src_ref": "0", "dst_ref": "2", "src_port": 59709, "dst_port": 6667, "protocols": ["TCP"]}, "4": {"type": "x-deviceid", "deviceid": "windowsserver2019"}}}, {"type": "observed-data", "id": "observed-data--2062b3de-48de-4d23-9bc8-f0e4b2515884", "created": "2024-05-01T17:33:00.000000Z", "modified": "2024-05-01T17:33:00.000000Z", "first_observed": "2024-05-01T17:33:00.000000Z", "last_observed": "2024-05-01T17:33:00.000000Z", "number_observed": 4, "objects": {"0": {"type": "ipv4-addr", "value": "192.168.1.102"}, "1": {"type": "process", "pid": 226, "name": "webex_installer.exe"}, "2": {"type": "user-account", "user_id": "jo@m57.biz"}, "3": {"type": "mac-addr", "value": "CC:46:D6:52:43:ae"}, "4": {"type": "x-deviceid", "deviceid": "windowsserver2019"}}}, {"type": "observed-data", "id": "observed-data--25aa1c51-06a1-4c51-8cfc-131870f161f6", "created": "2024-05-01T17:34:00.000000Z", "modified": "2024-05-01T17:34:00.000000Z", "first_observed": "2024-05-01T17:34:00.000000Z", "last_observed": "2024-05-01T17:34:00.000000Z", "number_observed": 4, "objects": {"0": {"type": "ipv4-addr", "value": "192.168.1.102"}, "1": {"type": "file", "hashes": {"MD5": "cbfb6a0c44cb4f3b6f7f17407331a0ac", "SHA-1": "6750da01b47d0e0a87856643f515ae84a87f4dcc", "SHA-256": "6f5f194123df7cbb0b1b5a04098764c2ab3344248280a18f5686908083566590"}, "name": "webex_installer.zip"}, "2": {"type": "user-account", "user_id": "jo@m57.biz"}, "3": {"type": "mac-addr", "value": "CC:46:D6:52:43:ae"}, "4": {"type": "x-deviceid", "deviceid": "windowsserver2019"}}}]}
+{
+    "type": "bundle",
+    "id": "bundle--e3e25922-ef8c-4d5a-b0da-48cc4c013b41",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--79198cdf-91cb-4f23-b94f-2152e6b99389",
+            "created": "2024-05-01T17:30:39.401Z",
+            "modified": "2024-05-01T17:30:39.401Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--4cdeb503-19b2-4c64-be80-65d15923d1d4",
+            "created": "2024-05-01T17:30:39.405Z",
+            "modified": "2024-05-01T17:30:39.405Z",
+            "first_observed": "2024-05-01T13:31:19.385705Z",
+            "last_observed": "2024-05-01T13:31:19.385705Z",
+            "number_observed": 6,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "192.168.1.102"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "http://weebex.com/webex_installer.zip"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "weebex.com"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:52:43:ae"
+                },
+                "4": {
+                    "type": "ipv4-addr",
+                    "value": "190.14.228.17"
+                },
+                "5": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "4",
+                    "src_port": 61553,
+                    "dst_port": 80,
+                    "protocols": [
+                        "http"
+                    ]
+                },
+                "6": {
+                    "type": "x-deviceid",
+                    "deviceid": "windowsserver2019"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--2d85c732-c47e-4ba5-86f5-825d732ee9cf",
+            "created": "2024-05-01T17:30:39.406Z",
+            "modified": "2024-05-01T17:30:39.406Z",
+            "first_observed": "2024-05-01T13:32:22.385944Z",
+            "last_observed": "2024-05-01T13:32:22.385944Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.1.102"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "5.196.58.96"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:52:43:ae"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "2",
+                    "src_port": 58773,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "windowsserver2019"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--6ded49a9-8cd6-49f1-ad0e-d68bc1f246b7",
+            "created": "2024-05-01T17:30:39.408Z",
+            "modified": "2024-05-01T17:30:39.408Z",
+            "first_observed": "2024-05-01T13:33:06.386063Z",
+            "last_observed": "2024-05-01T13:33:06.386063Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.1.102"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "46.149.184.5"
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:52:43:ae"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "2",
+                    "src_port": 59709,
+                    "dst_port": 6667,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "windowsserver2019"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--2062b3de-48de-4d23-9bc8-f0e4b2515884",
+            "created": "2024-05-01T17:30:39.410Z",
+            "modified": "2024-05-01T17:30:39.410Z",
+            "first_observed": "2024-05-01T13:33:59.385881Z",
+            "last_observed": "2024-05-01T13:33:59.385881Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.1.102"
+                },
+                "1": {
+                    "type": "process",
+                    "pid": 226,
+                    "name": "webex_installer.exe"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "jo@m57.biz"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:52:43:ae"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "windowsserver2019"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--25aa1c51-06a1-4c51-8cfc-131870f161f6",
+            "created": "2024-05-01T17:30:39.412Z",
+            "modified": "2024-05-01T17:30:39.412Z",
+            "first_observed": "2024-05-01T13:34:42.38582Z",
+            "last_observed": "2024-05-01T13:34:42.38582Z",
+            "number_observed": 4,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.1.102"
+                },
+                "1": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "cbfb6a0c44cb4f3b6f7f17407331a0ac",
+                        "SHA-1": "6750da01b47d0e0a87856643f515ae84a87f4dcc",
+                        "SHA-256": "6f5f194123df7cbb0b1b5a04098764c2ab3344248280a18f5686908083566590"
+                    },
+                    "name": "webex_installer.zip"
+                },
+                "2": {
+                    "type": "user-account",
+                    "user_id": "jo@m57.biz"
+                },
+                "3": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:52:43:ae"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "windowsserver2019"
+                }
+            }
+        }
+    ]
+}
